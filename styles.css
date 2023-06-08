@@ -1,0 +1,81 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: yellow;
+}
+
+img {
+    max-width: 100%;
+}
+
+.full_slide {
+    width: 100%;
+    margin: auto;
+    padding: 0px;
+}
+
+.slide_top {
+    width: 90%;
+    margin: auto;
+}
+
+
+/* plane */
+
+.slide_bottom_plane {
+    margin-top: -140px;
+    width: 100%;
+    background-image: url('./live_assets/bg_plane.png');
+    min-height: 94px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.glide__arrow {
+    border-radius: 30px;
+    border: none;
+    background: #345629;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    font-family: Roboto Condensed;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+@media (max-width:980px) {
+    .slide_bottom_plane {
+        margin-top: -50px;
+    }
+}
+
+
+/* Plane */
+
+
+/* bottom */
+
+.bottom_text {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.sub_title {
+    font-size: 20px;
+    color: #345629;
+    font-family: Cartonnage OT;
+    font-weight: bold;
+}
+
+.descriptor {
+    color: #345629;
+    font-family: Cartonnage OT;
+    font-family: 15px;
+}
+
+
+/* bottom */
