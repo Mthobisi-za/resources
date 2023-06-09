@@ -179,7 +179,7 @@
     <div class="btns">
         <div style="display:flex;align-items:center;justify-content:center;gap:20px" class="flex_to_grid">
             <div>
-                <a href="${obj.tweet}">
+                <a target='_blank' href=${obj.tweet}>
                     <button onclick="" style="border-radius:30px;border:none;background:#345629;color:white;padding-left:20px;padding-right:20px;font-size:20px;font-family: Roboto Condensed;font-weight:bold;padding-top:5px;padding-bottom:5px">
                         SHARE
                     </button>
@@ -190,10 +190,10 @@
 
             </div>
             <div>
-                <a href="#museum">
+                
                 <button class="btn_hover" onclick="goToUpload()" style="border-radius:30px;border:none;background:#345629;color:white;padding-left:20px;padding-right:20px;font-size:20px;font-family: Roboto Condensed;font-weight:bold;padding-top:5px;padding-bottom:5px">
                ADD YOUR ARTEFACT
-              </button></a>
+              </button>
             </div>
             <br> <br>
         </div>
@@ -201,6 +201,10 @@
     `
         document.querySelector('.content').innerHTML = '';
         document.querySelector('.content').insertAdjacentHTML('beforeend', str)
+    }
+
+    function goToUpload() {
+        window.parent.postMessage('move', "*");
     }
     var glide = new Glide('.glide', cofig_slide)
     glide.on(['mount.after', 'run'], function() {
