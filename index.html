@@ -207,12 +207,14 @@
         window.parent.postMessage('move', "*");
     }
     var glide = new Glide('.glide', cofig_slide)
-    glide.on(['mount.after', 'run'], function() {
-        // output.innerHTML = glide.index
-        createElemets(allData[glide.index]);
+    glide.on(['mount.after', 'run'], async function() {
+
         var colle = document.querySelector('.img_slide' + glide.index);
-        // colle.style.width = '100%!important';
-        console.log(glide.index, colle)
+        createElemets(allData[glide.index]);
+
+
+        console.log(glide.index, colle);
+
     });
     glide.mount();
 </script>
