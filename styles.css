@@ -1,8 +1,8 @@
-/* body {
+body {
     padding: 0px;
     margin: 0px;
     background-color: yellow;
-} */
+}
 
 img {
     max-width: 100%;
@@ -26,7 +26,7 @@ img {
     margin-top: -160px;
     width: 100%;
     background-image: url('https://cdn.jsdelivr.net/gh/Mthobisi-za/resources@main/live_assets/bg_plane.png');
-    min-height: 100px;
+    min-height: 200px;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -102,7 +102,7 @@ img {
         margin-top: -250px!important;
         background-size: cover;
         background-repeat: no-repeat;
-        min-height: 100px;
+        min-height: 130px;
     }
 }
 
@@ -151,3 +151,15 @@ img {
 
 
 /* add responsive styles */
+
+.glide__slide--active img {
+    transform: scale(1.5, 1.5);
+    transition: ease;
+}
+
+@media (max-width:1024px) {
+    .glide__slide--active img {
+        transform: scale(1, 1);
+        transition: ease;
+    }
+}
