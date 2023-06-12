@@ -163,3 +163,7 @@ img {
         transition: ease;
     }
 }
+
+li {
+    padding-top: 50px;
+}
