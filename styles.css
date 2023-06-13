@@ -137,6 +137,10 @@ img {
     }
     .descriptor {
         width: 90%!important;
+        font-size: 20px;
+    }
+    .sub_title {
+        font-size: 25px!important;
     }
 }
 
@@ -150,8 +154,8 @@ img {
     }
     .glide__arrow {
         padding: 2px;
-        padding-right: 15px;
-        padding-left: 15px;
+        padding-right: 5px;
+        padding-left: 5px;
     }
     .flex_to_grid {
         flex-direction: column!important;
