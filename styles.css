@@ -3,6 +3,15 @@ body {
     margin: 0px;
     /* background-color: yellow; */
 }
+@font-face {
+    font-family: "Roboto Condensed";
+    src: url("/23648208580.ttf") format("ttf"), url("/RobotoCondensed-Bold.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "Cartonnage OT";
+    src: url("/CartonnageOT-3da0ad112ecae4b0dbd1c1e98ac5b681.ttf") format("ttf"), url("/CartonnageOT.otf") format("otf");
+}
 
 img {
     max-width: 100%;
