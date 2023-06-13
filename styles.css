@@ -70,6 +70,8 @@ img {
     color: #345629;
     font-family: Cartonnage OT;
     font-weight: bold;
+        white-space: pre-wrap;
+    word-wrap: break-word;
 }
 
 .descriptor {
