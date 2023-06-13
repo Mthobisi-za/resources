@@ -5,12 +5,12 @@ body {
 }
 @font-face {
     font-family: "Roboto Condensed";
-    src: url("/23648208580.ttf") format("ttf"), url("/RobotoCondensed-Bold.ttf") format("ttf");
+    src: url("/23648208580.ttf");
 }
 
 @font-face {
     font-family: "Cartonnage OT";
-    src: url("/CartonnageOT-3da0ad112ecae4b0dbd1c1e98ac5b681.ttf") format("ttf"), url("/CartonnageOT.otf") format("otf");
+    src: url("/CartonnageOT.otf");
 }
 
 img {
@@ -85,7 +85,7 @@ img {
 
 .descriptor {
     color: #345629;
-     font-family: Cartonnage OT;
+     font-family: Cartonnage OT!important;
     font-size: 25px;
     width: 60%;
     margin: auto;
@@ -137,7 +137,7 @@ img {
     .descriptor {
         width: 90%;
         margin: auto;
-        font-family: roboto;
+        font-family: Cartonnage OT!important;
     }
 }
 
