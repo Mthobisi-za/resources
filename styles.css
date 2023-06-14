@@ -5,7 +5,7 @@ body {
 }
 @font-face {
     font-family: "Roboto Condensed";
-    src: url("/23648208580.ttf");
+    src: url("/RobotoCondensed-Bold.ttf");
 }
 
 @font-face {
@@ -77,7 +77,7 @@ img {
 .sub_title {
     font-size: 40px;
     color: #345629;
-    font-family: Cartonnage OT;
+    font-family:Cartonnage OT;
     font-weight: bold;
         white-space: pre-wrap;
     word-wrap: break-word;
@@ -85,8 +85,8 @@ img {
 
 .descriptor {
     color: #345629;
-     font-family: Cartonnage OT!important;
-    font-size: 25px;
+     font-family: Roboto Condensed!important;
+    font-size: 20px;
     width: 60%;
     margin: auto;
 }
