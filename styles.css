@@ -11,8 +11,8 @@ body {
 
 @font-face {
     font-family: "Cartonnage OT";
-    src: url("/CartonnageOT.otf");
-    src: url("/CartonnageOT-3da0ad112ecae4b0dbd1c1e98ac5b681.ttf");
+    src: url("/CartonnageOT.otf"),
+    url("/CartonnageOT-3da0ad112ecae4b0dbd1c1e98ac5b681.ttf") format('truetype');
 }
 
 button {
